@@ -1,0 +1,214 @@
+
+.open{
+    height: 100vh;
+    width: 270px;
+    z-index: 10;
+    left: -270px;
+    top: 0;
+    background-color: rgb(17, 17, 17);
+    transition: all 0.5s ease 0s;
+}
+.openIcon
+{
+    right: -115px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+    font-size: 30px;
+}
+.close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+ul li a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+a:hover{
+    color:  rgba(214, 46, 51 , 0.4);
+}
+.HomeOverlay
+{
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+#Home
+{
+    width: 100%;
+    height: 660px;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+
+}
+/* Section contant */
+#singers_section
+{
+    margin: 100px auto;
+    width: 50%;
+    
+}
+
+#singers_section h3
+{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+
+#singers_section div
+{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+
+
+
+#singers_section .active{
+    display:block;
+}
+#countSection
+{
+   
+    background-image: url(../images/invitation-2508607__340.jpg);
+    
+    background-position: center;
+    background-size:contain;
+    position: relative;
+    height: 348.8px;
+    
+    
+}
+
+
+.overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+}
+
+.container
+{
+    padding: 100px 0px;
+}
+
+.time
+{
+    
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+#contact-section{
+    margin-top:100px;
+}
+
+#contact-section .contact_header h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    color:#444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#contact-section .contact_header p{
+    color:#777;
+    font-weight: 300;
+    font-size: 16px;
+}
+#contact-section .contact-info h3{
+    color:#444;
+    font-size: 18px;
+    font-weight: bold;
+}
+#contact-section .contact-info p{
+    font-size: 16px;
+    line-height: 26px;
+    color:#777;
+}
+
+#contact-section .icons{
+    margin-top:50px;
+}
+#contact-section .icons p{
+    margin-bottom: 35px;
+}
+#contact-section i{
+    margin-right: 20px;
+    color:#777;
+}
+#contact-section .red{
+    color:#D62E33 !important;
+}
+
+
+#contact-section .contact-info .social{
+    margin-top:60px;
+    color:#777;
+    
+}
+
+#contact-section .contact-info .social i{
+    margin-right: 10px;
+    border:1px solid #999;
+    width:40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+#contact-section .contact-info .social i:hover{
+    color:#fff;
+    background-color: #D62E33;
+    border:1px solid #D62E33;
+}
+#contact-section form input,
+#contact-section form textarea{
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+#contact-section form textarea{
+    height: 200px;
+    resize:vertical;
+}
+
+#contact-section form button{
+    background-color: #D62E33;
+    color:#fff;
+    padding:10px 20px;
+    border-radius: 0;
+    text-transform: uppercase
+}
+
+#charsNum
+{
+    font-size: 20px;
+    color: #D62E33;
+}
+
+
+
